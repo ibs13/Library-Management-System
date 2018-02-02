@@ -1,0 +1,228 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+	font-family:arial;
+	font-size:15px;
+	 background:url(images/logo.jpg);
+	 width:100%;height:100%;
+	 background-repeat:none;
+}
+.main {width:960px;height:100%;margin:20px auto;display:block;overflow:hidden;background:url(images/b.jpg) ;}
+.header {}
+input[type='submit']{
+	cursor: pointer;
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	color:#fff;
+	border: 1px solid #3D9CCD;
+}
+
+input[type='text']{
+	margin-left:10px;
+	padding: 1px 5px;
+}
+
+
+
+#wrapper-login{
+	width:960px;
+	height:400px;
+	margin:0px auto;
+	background:url(images/b.jpg);
+	padding:30px;
+	margin-top: 100px;
+}
+
+
+#wrapper-login h1{
+	font-size:20px;
+	border-bottom:1px solid #000;
+	margin-bottom:20px;
+	color:#FFFF00;
+	text-align: center;
+}
+
+#wrapper-login table tr{
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 275px;
+}
+
+#wrapper-login table tr td{
+	padding:0px 10px;
+	color:#FFFF00;
+	margin-bottom: 50px;
+}
+#wrapper-login table tr td input[type='text'],#wrapper-login table tr td input[type='email'],#wrapper-login table tr td input[type='password']{
+	width:200px;
+	height:23px;
+	line-height:23px;
+	padding: 2px 10px;
+}
+#wrapper-login table tr td input[type='submit']{
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	color:#FFFFFF;
+	border: none;
+	margin-top: 10px;
+	margin-left: 230px;
+	float: right;
+	font-size:16px;
+	border-radius: 5px;
+}
+#wrapper-login table tr td input[type='submit']:hover{
+	background-color:#8e44ad;
+	
+}
+
+#wrapper-add table tr{
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 220px;
+}
+
+#wrapper-add table tr td{
+	padding: 5px 10px;
+	color: #f1c40f;
+	margin-bottom: 50px;
+}
+
+#wrapper-add table tr td input[type='text']{
+	width:200px;
+	height:23px;
+	line-height:23px;
+	padding: 2px 5px;
+}
+
+#wrapper-add table tr td input[type='number']{
+	width: 65px;
+	height:23px;
+	line-height:23px;
+	padding: 2px 5px;
+}
+
+#wrapper-add table tr td input[type='submit']{
+	background-color:#3d9ccd;
+	padding:5px 25px;
+	color:#FFFFFF;
+	border: none;
+	margin-top: 10px;
+	margin-left: 260px;
+	float: right;
+	font-size:16px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+#wrapper-add table tr td input[type='submit']:hover{
+	background-color:#8e44ad;
+	
+}
+
+.main{
+	width:800px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.main h2{
+	text-align:center;
+	padding:10px;
+	margin:5px;
+	color:#00FFFF;
+}
+.menu {background:#9C5831;overflow:hidden;width:73%;border-radius:10px;margin:0 auto;margin-top:10px;}
+.menu ul li:first-child{margin-left:25px;}
+.menu ul{margin:0;padding:0;list-style:none;text-align:center;}
+.menu ul li{float:left;}
+.menu ul li a{display:block;color:#ecf0f1;padding:10px 20px;text-decoration:none;border-right:1px solid transparent;font-family:lucida sans;}
+.menu ul li a:hover{background:#f39c12;border-right:1px solid #f39c12; color: #7f8c8d;}
+.content{
+text-align:center;
+color:#00FF00;
+margin-bottom:50px
+}
+.footer{
+	background-color:#7A624A;
+	padding:10px;
+	text-align:center;
+	margin-top:150px;
+	color: #EFF3F3;
+	font-size: 12px;
+}
+.back{
+	margin:0px
+}
+
+table.tbl2{
+	margin: 0 auto;
+	margin-top: 0px;
+	border-radius: 5px;
+}
+table.tbl2 tr td{
+	text-align: center;
+	padding: 0px;
+}
+table.tbl2 tr th{
+	background-color:#16a085;
+	color:white;
+	padding: 0px;
+}
+table.tbl2 tr:nth-child(2n+1) td{
+	background-color:#27ae60;
+	color: #FFFF00;
+}
+table.tbl2 tr:nth-child(2n) td{
+	background-color:#2ecc71;
+	color: #FFFF00;
+}
+table.tbl2 tr td a{
+	color:purple;
+	text-decoration: none;
+}
+
+table.tbl2 tr td a:hover{
+	color: #e74c3c;
+	text-decoration: underline;
+	}
+
+.content input[type="submit"]:hover{
+	background: #8e44ad;
+	border: 1px solid #8e44ad;
+}
+
+.bc{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.bc a{
+	padding: 5px 10px;
+	background: #1abc9c;
+	border: 1px solid #1abc9c;
+	border-radius: 5px;
+}
+
+.bc a{
+	padding: 5px 10px;
+	background: #1abc9c;
+	border: 1px solid #1abc9c;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.bc a:hover{
+	background: #16a085;
+	border: 1px solid #16a085;
+}
+
+.srch{
+	margin-top: 25px;
+}
+
+.srch input[type="text"]{
+	margin-left: 290px;
+	padding: 3px 10px;
+}
